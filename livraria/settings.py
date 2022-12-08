@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
-
+_
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -129,3 +129,5 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
 }
+
+AUTH_USER_MODEL = "core.Usuario"
